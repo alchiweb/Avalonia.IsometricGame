@@ -31,6 +31,6 @@ public class TerrainTileConverter : IValueConverter
     {
         return _cache ??= Enum.GetValues(typeof(TerrainTileType)).OfType<TerrainTileType>().ToDictionary(
             t => t,
-            t => new Bitmap(AssetLoader.Open(new Uri($"avares://Isometric/Assets/{t}.png"))));
+            t => new Bitmap(AssetLoader.Open(new Uri($"avares://IsometricGame/Assets/{t}.png"))));
     }
 }

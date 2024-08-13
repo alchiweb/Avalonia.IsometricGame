@@ -4,6 +4,7 @@ using IsometricGame.Models;
 using Avalonia;
 using Avalonia.Data.Converters;
 using Avalonia.Media;
+using IsometricGame.ViewModels;
 
 namespace IsometricGame.Infrastructure;
 
@@ -15,9 +16,37 @@ internal class DirectionToMatrixConverter : IValueConverter
     {
         var direction = (Facing)value;
         var matrix = Matrix.Identity;
-        if (direction == Facing.South) matrix = Matrix.CreateScale(1, -1);
-        if (direction == Facing.East) matrix = Matrix.CreateRotation(1.5708);
-        if (direction == Facing.West) matrix = Matrix.CreateRotation(1.5708) * Matrix.CreateScale(-1, 1);
+        if (GameBoard.Isometric)
+        {
+            double skewY = 0;
+            double rotation = 0;
+            switch (direction)
+            {
+                case Facing.South:
+                    skewY = -0.523599;
+                    rotation = 1.0472;
+                    break;
+                case Facing.East:
+                    skewY = 0.523599;
+                    rotation = -1.0472;
+                    break;
+                case Facing.North:
+                    skewY = -0.523599;
+                    rotation = -2.0944;
+                    break;
+                case Facing.West:
+                    skewY = 0.523599;
+                    rotation = 2.0944;
+                    break;
+            }
+            matrix = Matrix.CreateSkew(0, skewY).Append(Matrix.CreateRotation(rotation));
+        }
+        else
+        {
+            if (direction == Facing.South) matrix = Matrix.CreateScale(1, -1);
+            if (direction == Facing.East) matrix = Matrix.CreateRotation(1.5708);
+            if (direction == Facing.West) matrix = Matrix.CreateRotation(1.5708) * Matrix.CreateScale(-1, 1);
+        }
         return new MatrixTransform(matrix);
     }
 

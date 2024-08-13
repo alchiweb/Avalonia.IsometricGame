@@ -8,6 +8,6 @@
         x:Class="IsometricGame.Views.MainWindow"
         Icon="/Assets/avalonia-logo.ico"
         Title="IsometricGame"
-		 Width="640" Height="480">
-        <views:MainView x:Name="aa" />
+		 Width="1900" Height="1000">
+        <views:MainView />
 </Window>

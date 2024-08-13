@@ -20,7 +20,7 @@ public class TerrainTileOneImageMultiConverter : IMultiValueConverter
         get {
             if (_bitmapImage == null)
             {
-                _bitmapImage = new Bitmap(AssetLoader.Open(new Uri($"avares://Isometric/Assets/Spritesheet.png"))).CreateScaledBitmap(new PixelSize(600, 522));
+                _bitmapImage = new Bitmap(AssetLoader.Open(new Uri($"avares://IsometricGame/Assets/Spritesheet.png"))).CreateScaledBitmap(new PixelSize(600, 522));
             }
             return _bitmapImage;
         }

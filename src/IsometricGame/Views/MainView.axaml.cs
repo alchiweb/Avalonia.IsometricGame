@@ -3,7 +3,6 @@ using Avalonia.Input;
 using Avalonia.Interactivity;
 using Avalonia.Markup.Xaml;
 
-
 namespace IsometricGame.Views;
 
 public partial class MainView : UserControl
@@ -23,7 +22,6 @@ public partial class MainView : UserControl
         Keyboard.Keys.Add(e.Key);
         base.OnKeyDown(e);
     }
-
     protected override void OnKeyUp(KeyEventArgs e)
     {
         Keyboard.Keys.Remove(e.Key);

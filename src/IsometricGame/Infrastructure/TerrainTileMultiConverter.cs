@@ -22,9 +22,10 @@ public class TerrainTileMultiConverter : IMultiValueConverter
         {
             if (values.Count == 2 && values[0] is TerrainTile terrainTile && values[1] is Image image)
             {
-                image.Width = 32;
-                image.Height = 32;
-                return GetCache()[terrainTile.Type];
+                var tile = GetCache()[terrainTile.Type];
+                image.Width = 70;//tile.PixelSize.Width;
+                image.Height = 96;//tile.PixelSize.Height;
+                return tile;
             }
         }
         return null;
@@ -39,6 +40,7 @@ public class TerrainTileMultiConverter : IMultiValueConverter
     {
         return _cache ??= Enum.GetValues(typeof(TerrainTileType)).OfType<TerrainTileType>().ToDictionary(
             t => t,
-            t => new Bitmap(AssetLoader.Open(new Uri($"avares://IsometricGame/Assets/{t}.png"))));
+            //t => new Bitmap(AssetLoader.Open(new Uri($"avares://IsometricGame/Assets/{t}.png"))));
+            t => new Bitmap(AssetLoader.Open(new Uri($"avares://IsometricGame/Assets/{(GameBoard.Isometric ? "Iso-" : "")}{t}.png")))/*.CreateScaledBitmap(new PixelSize(70,96))*/);
     }
 }

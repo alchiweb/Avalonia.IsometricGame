@@ -6,12 +6,6 @@ namespace IsometricGame.ViewModels;
 public abstract class GameObject : ViewModelBase
 {
     private Point _location;
-
-    protected GameObject(Point location)
-    {
-        Location = location;
-    }
-
     public Point Location
     {
         get => _location;
@@ -23,5 +17,10 @@ public abstract class GameObject : ViewModelBase
         }
     }
 
-    public virtual int Layer => 0;
+    public abstract int Layer { get; }
+
+    protected GameObject(Point location)
+    {
+        Location = location;
+    }
 }

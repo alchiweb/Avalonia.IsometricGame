@@ -8,7 +8,7 @@ namespace IsometricGame.ViewModels;
 
 public class GameBoard : ViewModelBase
 {
-    public const double CellSize = 32;
+    public const double CellSize = 64;
     public static GameBoard DesignInstance { get; } = new();
     public static bool Isometric { get; private set; } = false;
 
@@ -36,7 +36,7 @@ public class GameBoard : ViewModelBase
     private static Point GetScreenPoint(double x, double y, bool translate)
     {
         if (Isometric)
-            return new Point((x) * CellSize +((translate ? Height-1 : 0)-x-y)*CellSize/2, (x+y) * CellSize/2);
+            return new Point((x) * CellSize +((translate ? Height-1 : 0)-x-y)*CellSize/2, (x+y) * CellSize/4);
         else
             return new Point(x * CellSize, y * CellSize);
     }
@@ -59,7 +59,7 @@ public class GameBoard : ViewModelBase
             for (var y = 0; y < height; y++)
                 GameObjects.Add(
                     Tiles[x, y] =
-                        new TerrainTile(GetScreenPoint(x, y), GetTypeForCoords(x, y)));
+                        new TerrainTile(GetScreenPoint(x, y), GetTypeForCoords(x, y), x + y));
         GameObjects.Add(
             Player = new Player(this, new CellLocation(width / 2, height / 2), Facing.East));
 
@@ -77,16 +77,32 @@ public class GameBoard : ViewModelBase
 
     private TerrainTileType GetTypeForCoords(int x, int y)
     {
-        if (x / 2 == Width / 4)
-            return TerrainTileType.Pavement;
-        if (y / 2 == Height / 4) return TerrainTileType.Water;
+        if (GameBoard.Isometric)
+        {
+            if (x / 2 == Width / 4)
+                return TerrainTileType.Pavement;
+            if (y == Height / 2) return TerrainTileType.Water2;
+            if (y == Height / 2 - 1) return TerrainTileType.Water1;
 
-        if (x * y == 0) return TerrainTileType.StoneWall;
-        if ((x + 1 - Width) * (y + 1 - Height) == 0) return TerrainTileType.WoodWall;
+            if (x * y == 0) return TerrainTileType.StoneWall;
+            if ((x + 1 - Width) * (y + 1 - Height) == 0) return TerrainTileType.WoodWall;
+
+            if (Random.NextDouble() < 0.3) return TerrainTileType.Forest;
+            return TerrainTileType.Plain;
+        }
+        else
+        {
+            if (x / 2 == Width / 4)
+                return TerrainTileType.Pavement;
+            if (y / 2 == Height / 4) return TerrainTileType.Water1;
+
+            if (x * y == 0) return TerrainTileType.StoneWall;
+            if ((x + 1 - Width) * (y + 1 - Height) == 0) return TerrainTileType.WoodWall;
 
 
-        //if(Random.NextDouble()<0.1) return TerrainTileType.WoodWall;
-        if (Random.NextDouble() < 0.3) return TerrainTileType.Forest;
-        return TerrainTileType.Plain;
-    }
+            //if(Random.NextDouble()<0.1) return TerrainTileType.WoodWall;
+            if (Random.NextDouble() < 0.3) return TerrainTileType.Forest;
+            return TerrainTileType.Plain;
+        }
+        }
 }

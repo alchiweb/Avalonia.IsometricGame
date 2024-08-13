@@ -9,7 +9,9 @@ public abstract class MovingGameObject : GameObject
 {
     private readonly GameBoard _field;
 
-    public override int Layer => 1;
+    private  int _layer = 0;
+
+    public override int Layer => _layer;
 
     private Facing _facing;
     public Facing Facing
@@ -31,6 +33,16 @@ public abstract class MovingGameObject : GameObject
         {
             if (value.Equals(_cellLocation)) return;
             _cellLocation = value;
+            if (GameBoard.Isometric)
+            {
+                var newLayer = _cellLocation.X + _cellLocation.Y;
+
+                if (_layer != newLayer)
+                {
+                    _layer = _cellLocation.X + _cellLocation.Y;
+                    OnPropertyChanged(nameof(Layer));
+                }
+            }
             OnPropertyChanged();
             OnPropertyChanged(nameof(IsMoving));
         }
@@ -150,6 +162,20 @@ public abstract class MovingGameObject : GameObject
                 speedPoint = new(0, 0);
                 break;
         }
+        var screenPos = GameBoard.GetScreenPoint(CellLocation.X, CellLocation.Y);
+        // Firt time to move (if isometric)
+        if (GameBoard.Isometric && (speedPoint.Y > 0.0) && screenPos.X == Location.X && screenPos.Y == Location.Y)
+        {
+            if (this is Player player)
+            {
+
+            }
+            _layer = TargetCellLocation.X + TargetCellLocation.Y;
+            OnPropertyChanged(nameof(Layer));
+        }
+
+
+
         Location = Location + speedPoint;
         var targetLocation = GameBoard.GetScreenPoint(TargetCellLocation.X, TargetCellLocation.Y);
         bool reached = false;

@@ -20,12 +20,14 @@ public class TerrainTile : GameObject
     public bool IsPassable => _speed > 0.1;
     public TerrainTileType Type { get; set; }
 
-
-    public TerrainTile(Point location, TerrainTileType type) : base(location)
+    private int _layer;
+    public override int Layer => _layer;
+    public TerrainTile(Point location, TerrainTileType type, int layer) : base(location)
     {
         Type = type;
         Speed = GetSpeed(Type);
         ShootThrus = GetShootThrus(Type);
+        _layer = layer;
     }
     static private double GetSpeed(TerrainTileType terrainTileType)
     {
