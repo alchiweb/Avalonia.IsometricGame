@@ -1,6 +1,6 @@
-﻿using Isometric.Models;
+﻿using IsometricGame.Models;
 
-namespace Isometric.ViewModels;
+namespace IsometricGame.ViewModels;
 
 public class Tank : MovingGameObject
 {

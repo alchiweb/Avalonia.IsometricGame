@@ -1,7 +1,7 @@
 using System;
 using Avalonia.Threading;
 
-namespace Isometric.Models;
+namespace IsometricGame.Models;
 
 public abstract class GameBase
 {

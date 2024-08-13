@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Globalization;
-using Isometric.Models;
+using IsometricGame.Models;
 using Avalonia;
 using Avalonia.Data.Converters;
 using Avalonia.Media;
 
-namespace Isometric.Infrastructure;
+namespace IsometricGame.Infrastructure;
 
 internal class DirectionToMatrixConverter : IValueConverter
 {

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IsometricGame.Android")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+4e7e7b19c7ddf56702cba995421e39cb3b48ebae")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+b6676d2ef3c05af6452016b19c49313101ef46f7")]
 [assembly: System.Reflection.AssemblyProductAttribute("IsometricGame.Android")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IsometricGame.Android")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

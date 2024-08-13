@@ -1,9 +1,9 @@
 using System;
 using System.Linq;
 using Avalonia.Input;
-using Isometric.ViewModels;
+using IsometricGame.ViewModels;
 
-namespace Isometric.Models;
+namespace IsometricGame.Models;
 
 public class Game : GameBase
 {

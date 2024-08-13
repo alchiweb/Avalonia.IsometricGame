@@ -1,7 +1,7 @@
 using Avalonia;
-using Isometric.ViewModels;
+using IsometricGame.ViewModels;
 
-namespace Isometric.Models;
+namespace IsometricGame.Models;
 
 public readonly record struct CellLocation(int X, int Y)
 {

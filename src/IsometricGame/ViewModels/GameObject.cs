@@ -1,7 +1,7 @@
-﻿using Isometric.Infrastructure;
+﻿using IsometricGame.Infrastructure;
 using Avalonia;
 
-namespace Isometric.ViewModels;
+namespace IsometricGame.ViewModels;
 
 public abstract class GameObject : ViewModelBase
 {

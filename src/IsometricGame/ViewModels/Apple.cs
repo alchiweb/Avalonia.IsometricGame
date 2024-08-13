@@ -1,6 +1,6 @@
 ﻿using Avalonia;
 
-namespace Isometric.ViewModels;
+namespace IsometricGame.ViewModels;
 
 public class Apple : GameObject
 {

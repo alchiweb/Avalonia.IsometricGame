@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using Avalonia;
 
-namespace Isometric.ViewModels;
+namespace IsometricGame.ViewModels;
 
 public class TerrainTile : GameObject
 {

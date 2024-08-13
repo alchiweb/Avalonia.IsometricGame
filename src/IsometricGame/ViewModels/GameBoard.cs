@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.ObjectModel;
 using Avalonia;
-using Isometric.Infrastructure;
-using Isometric.Models;
+using IsometricGame.Infrastructure;
+using IsometricGame.Models;
 
-namespace Isometric.ViewModels;
+namespace IsometricGame.ViewModels;
 
 public class GameBoard : ViewModelBase
 {

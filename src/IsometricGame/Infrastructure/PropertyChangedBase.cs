@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-namespace Isometric.Infrastructure;
+namespace IsometricGame.Infrastructure;
 
 public abstract class PropertyChangedBase : INotifyPropertyChanged
 {

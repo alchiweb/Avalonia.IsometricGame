@@ -1,9 +1,9 @@
 using Avalonia;
 using System;
 using System.Linq;
-using Isometric.Models;
+using IsometricGame.Models;
 
-namespace Isometric.ViewModels;
+namespace IsometricGame.ViewModels;
 
 public abstract class MovingGameObject : GameObject
 {

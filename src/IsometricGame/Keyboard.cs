@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Avalonia.Input;
 
-namespace Isometric;
+namespace IsometricGame;
 
 internal static class Keyboard
 {

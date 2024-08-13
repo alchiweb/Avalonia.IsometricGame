@@ -1,6 +1,6 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 
-namespace Isometric.ViewModels;
+namespace IsometricGame.ViewModels;
 
 public class ViewModelBase : ObservableObject
 {

@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using Avalonia;
 using Avalonia.Browser;
 
-using Isometric;
+using IsometricGame;
 
 internal sealed partial class Program
 {

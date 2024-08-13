@@ -1,7 +1,7 @@
 ﻿using Avalonia.Controls;
 using Avalonia.Input;
 
-namespace Isometric.Views;
+namespace IsometricGame.Views;
 
 public partial class MainWindow : Window
 {

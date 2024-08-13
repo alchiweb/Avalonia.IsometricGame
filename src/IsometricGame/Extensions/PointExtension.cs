@@ -1,7 +1,7 @@
 ﻿using Avalonia;
-using Isometric.ViewModels;
+using IsometricGame.ViewModels;
 
-namespace Isometric.Extensions
+namespace IsometricGame.Extensions
 {
     static public class PointExtension
     {

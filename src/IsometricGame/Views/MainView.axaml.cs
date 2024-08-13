@@ -4,7 +4,7 @@ using Avalonia.Interactivity;
 using Avalonia.Markup.Xaml;
 
 
-namespace Isometric.Views;
+namespace IsometricGame.Views;
 
 public partial class MainView : UserControl
 {

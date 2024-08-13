@@ -4,7 +4,7 @@ using Android.Content.PM;
 using Avalonia;
 using Avalonia.Android;
 
-namespace Isometric.Android;
+namespace IsometricGame.Android;
 
 [Activity(
     Label = "IsometricGame.Android",

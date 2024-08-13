@@ -6,9 +6,9 @@ using Avalonia;
 using Avalonia.Data.Converters;
 using Avalonia.Media.Imaging;
 using Avalonia.Platform;
-using Isometric.ViewModels;
+using IsometricGame.ViewModels;
 
-namespace Isometric.Infrastructure;
+namespace IsometricGame.Infrastructure;
 
 public class TerrainTileConverter : IValueConverter
 {

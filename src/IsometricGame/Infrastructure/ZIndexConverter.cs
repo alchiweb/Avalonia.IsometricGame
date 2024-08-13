@@ -1,9 +1,9 @@
 using System;
 using System.Globalization;
 using Avalonia.Data.Converters;
-using Isometric.ViewModels;
+using IsometricGame.ViewModels;
 
-namespace Isometric.Infrastructure;
+namespace IsometricGame.Infrastructure;
 
 internal class ZIndexConverter : IValueConverter
 {

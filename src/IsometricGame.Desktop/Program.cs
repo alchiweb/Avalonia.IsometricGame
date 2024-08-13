@@ -4,7 +4,7 @@ using System.Threading;
 
 using Avalonia;
 
-namespace Isometric.Desktop;
+namespace IsometricGame.Desktop;
 
 class Program
 {

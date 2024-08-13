@@ -1,4 +1,4 @@
-﻿namespace Isometric.Models;
+﻿namespace IsometricGame.Models;
 
 public enum Facing
 {

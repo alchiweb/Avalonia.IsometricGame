@@ -3,13 +3,13 @@ using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Data.Core.Plugins;
 using Avalonia.Markup.Xaml;
 
-using Isometric.ViewModels;
-using Isometric.Views;
-using Isometric.Models;
+using IsometricGame.ViewModels;
+using IsometricGame.Views;
+using IsometricGame.Models;
 using Avalonia.Input;
 using Avalonia.Controls;
 
-namespace Isometric;
+namespace IsometricGame;
 
 public partial class App : Application
 {

@@ -2,11 +2,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:vm="clr-namespace:Isometric.ViewModels"
+             xmlns:vm="clr-namespace:IsometricGame.ViewModels"
 		     xmlns:skia="clr-namespace:Avalonia.Controls.Skia;assembly=Avalonia.Controls.Skia"
-			 xmlns:infrastructure="clr-namespace:Isometric.Infrastructure"
+			 xmlns:infrastructure="clr-namespace:IsometricGame.Infrastructure"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
-             x:Class="Isometric.Views.MainView"
+             x:Class="IsometricGame.Views.MainView"
 			 x:DataType="vm:GameBoard">
 
 	<Design.DataContext>
