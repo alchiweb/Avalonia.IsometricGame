@@ -7,7 +7,7 @@ using Avalonia.Android;
 namespace Isometric.Android;
 
 [Activity(
-    Label = "Isometric.Android",
+    Label = "IsometricGame.Android",
     Theme = "@style/MyTheme.NoActionBar",
     Icon = "@drawable/icon",
     MainLauncher = true,
