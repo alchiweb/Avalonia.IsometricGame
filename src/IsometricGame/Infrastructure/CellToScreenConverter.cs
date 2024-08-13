@@ -1,0 +1,21 @@
+﻿using System;
+using System.Globalization;
+using Avalonia.Data.Converters;
+using Isometric.ViewModels;
+
+namespace Isometric.Infrastructure;
+
+public class CellToScreenConverter : IValueConverter
+{
+    public static CellToScreenConverter Instance { get; } = new();
+
+    public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
+    {
+        return System.Convert.ToDouble(value) * GameBoard.CellSize;
+    }
+
+    public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
+    {
+        throw new NotSupportedException();
+    }
+}
