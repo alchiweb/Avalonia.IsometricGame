@@ -66,11 +66,12 @@ public abstract class MovingGameObject : GameObject
     protected virtual double SpeedFactor => (double)1 / 15;
 
 
-    protected MovingGameObject(GameBoard field, CellLocation location, Facing facing) : base(location.ToPoint())
+    protected MovingGameObject(GameBoard field, CellLocation location, Facing facing, int defaultLayer) : base(location.ToPoint())
     {
         _field = field;
         Facing = facing;
         CellLocation = TargetCellLocation = location;
+        _layer = defaultLayer;
     }
     public bool SetTarget(CellLocation loc)
     {

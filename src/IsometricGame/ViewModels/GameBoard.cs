@@ -8,9 +8,10 @@ namespace IsometricGame.ViewModels;
 
 public class GameBoard : ViewModelBase
 {
-    public const double CellSize = 64;
+    public const double CellSize = 32;      // 32 or 64
+    public const bool Isometric = true;
+
     public static GameBoard DesignInstance { get; } = new();
-    public static bool Isometric { get; private set; } = false;
 
     public ObservableCollection<GameObject> GameObjects { get; } = new();
 
@@ -22,9 +23,35 @@ public class GameBoard : ViewModelBase
 
     private Random Random { get; } = new();
 
-    public GameBoard(bool isometric = false) : this(20, 15, isometric)
+    public GameBoard() : this(20, 15)
     {
     }
+
+    public GameBoard(int width, int height)
+    {
+        Width = width;
+        Height = height;
+        Tiles = new TerrainTile[width, height];
+        for (var x = 0; x < width; x++)
+            for (var y = 0; y < height; y++)
+                GameObjects.Add(
+                    Tiles[x, y] =
+                        new TerrainTile(GetScreenPoint(x, y), GetTypeForCoords(x, y), Isometric ? x + y : 0));
+        GameObjects.Add(
+            Player = new Player(this, new CellLocation(width / 2, height / 2), Facing.East));
+
+        for (var c = 0; c < 10;)
+        {
+            var x = Random.Next(Width - 1);
+            var y = Random.Next(Height - 1);
+            if (!Tiles[x, y].IsPassable)
+                continue;
+            c++;
+            GameObjects.Add(new Tank(this, new CellLocation(x, y), (Facing)Random.Next(4),
+                Random.NextDouble() * 4 + 1));
+        }
+    }
+
     public static Point GetScreenPoint(int x, int y)
     {
         return GetScreenPoint(x, y, true);
@@ -48,32 +75,6 @@ public class GameBoard : ViewModelBase
     //    else
     //        return new Point(x * CellSize, y * CellSize);
     //}
-
-    public GameBoard(int width, int height, bool isometric)
-    {
-        Isometric = isometric;
-        Width = width;
-        Height = height;
-        Tiles = new TerrainTile[width, height];
-        for (var x = 0; x < width; x++)
-            for (var y = 0; y < height; y++)
-                GameObjects.Add(
-                    Tiles[x, y] =
-                        new TerrainTile(GetScreenPoint(x, y), GetTypeForCoords(x, y), x + y));
-        GameObjects.Add(
-            Player = new Player(this, new CellLocation(width / 2, height / 2), Facing.East));
-
-        for (var c = 0; c < 10;)
-        {
-            var x = Random.Next(Width - 1);
-            var y = Random.Next(Height - 1);
-            if (!Tiles[x, y].IsPassable)
-                continue;
-            c++;
-            GameObjects.Add(new Tank(this, new CellLocation(x, y), (Facing)Random.Next(4),
-                Random.NextDouble() * 4 + 1));
-        }
-    }
 
     private TerrainTileType GetTypeForCoords(int x, int y)
     {

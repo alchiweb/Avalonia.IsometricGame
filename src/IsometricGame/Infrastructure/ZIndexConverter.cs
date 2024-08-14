@@ -11,19 +11,9 @@ internal class ZIndexConverter : IValueConverter
 
     public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
     {
-        if (GameBoard.Isometric)
+        if (value is GameObject gameObject)
         {
-            if (value is GameObject gameObject)
-            {
-                return gameObject.Layer;
-            }
-        }
-        else
-        {
-            if (value is Player)
-                return 2;
-            if (value is Tank)
-                return 1;
+            return gameObject.Layer;
         }
         return 0;
     }

@@ -39,9 +39,9 @@
 			<DataTemplate DataType="{x:Type vm:TerrainTile}">
 				<Image>
 					<Image.Source>
-						<MultiBinding Converter="{x:Static infrastructure:TerrainTileMultiConverter.Instance}">
-							<Binding Path="."></Binding>
+						<MultiBinding Converter="{x:Static infrastructure:ImageMultiConverter.Instance}">
 							<Binding Path="$self"></Binding>
+							<Binding Path="."></Binding>
 						</MultiBinding>
 					</Image.Source>
 					</Image>
@@ -81,16 +81,28 @@
 							</Style.Animations>
 						</Style>
 					</Border.Styles>
-					<Image Width="48" Height="44" Margin="10,25,0,0"
-						   Source="/Assets/Iso-Player.png"
-						/>
+					<Image>
+						<Image.Source>
+							<MultiBinding Converter="{x:Static infrastructure:ImageMultiConverter.Instance}">
+								<Binding Path="$self"></Binding>
+								<Binding Path="."></Binding>
+							</MultiBinding>
+						</Image.Source>
+					</Image>
 						<!--RenderTransform="{Binding Facing, Converter={x:Static infrastructure:DirectionToMatrixConverter.Instance}}"-->
 
 					</Border>
 			</DataTemplate>
 			<DataTemplate DataType="{x:Type vm:Tank}">
-				<Image Width="32" Height="34" Margin="20,34,0,0" Source="/Assets/Iso-Tank.png"
-					   RenderTransform="{Binding Facing, Converter={x:Static infrastructure:DirectionToMatrixConverter.Instance}}" />
+				<Image
+					   RenderTransform="{Binding Facing, Converter={x:Static infrastructure:DirectionToMatrixConverter.Instance}}">
+					<Image.Source>
+						<MultiBinding Converter="{x:Static infrastructure:ImageMultiConverter.Instance}">
+							<Binding Path="$self"></Binding>
+							<Binding Path="."></Binding>
+						</MultiBinding>
+					</Image.Source>
+				</Image>
 			</DataTemplate>
 		</ItemsControl.DataTemplates>
 	</ItemsControl>

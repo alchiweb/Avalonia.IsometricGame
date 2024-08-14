@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IsometricGame.Desktop")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e2dada0cc6aa845327b540b5cfd91e3f8b5d55f1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1b4b41444d7ac9fdcdd1caf92454e5f58475af7b")]
 [assembly: System.Reflection.AssemblyProductAttribute("IsometricGame.Desktop")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IsometricGame.Desktop")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

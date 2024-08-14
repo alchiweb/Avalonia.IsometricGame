@@ -43,9 +43,9 @@ internal class DirectionToMatrixConverter : IValueConverter
         }
         else
         {
-            if (direction == Facing.South) matrix = Matrix.CreateScale(1, -1);
-            if (direction == Facing.East) matrix = Matrix.CreateRotation(1.5708);
-            if (direction == Facing.West) matrix = Matrix.CreateRotation(1.5708) * Matrix.CreateScale(-1, 1);
+            if (direction == Facing.North) matrix = Matrix.CreateScale(1, -1);
+            if (direction == Facing.West) matrix = Matrix.CreateRotation(1.5708);
+            if (direction == Facing.East) matrix = Matrix.CreateRotation(1.5708) * Matrix.CreateScale(-1, 1);
         }
         return new MatrixTransform(matrix);
     }

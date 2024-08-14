@@ -24,7 +24,7 @@ public partial class App : Application
         // Without this line you will get duplicate validations from both Avalonia and CT
         BindingPlugins.DataValidators.RemoveAt(0);
 
-        var gameboard = new GameBoard(true);
+        var gameboard = new GameBoard();
         var game = new Game(gameboard);
         game.Start();
 

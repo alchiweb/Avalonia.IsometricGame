@@ -20,7 +20,7 @@ public class TerrainTileMultiConverter : IMultiValueConverter
     {
         if (values != null)
         {
-            if (values.Count == 2 && values[0] is TerrainTile terrainTile && values[1] is Image image)
+            if (values.Count == 2 && values[0] is Image image && values[1] is TerrainTile terrainTile)
             {
                 var tile = GetCache()[terrainTile.Type];
                 image.Width = 70;//tile.PixelSize.Width;

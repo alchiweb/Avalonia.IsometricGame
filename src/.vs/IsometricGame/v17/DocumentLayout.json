@@ -3,24 +3,56 @@
   "WorkspaceRootPath": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{060040AC-7448-4424-8EAF-69162E060ED0}|IsometricGame\\IsometricGame.csproj|d:\\dev\\source\\repos\\avalonia.isometricgame\\src\\isometricgame\\app.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{060040AC-7448-4424-8EAF-69162E060ED0}|IsometricGame\\IsometricGame.csproj|solutionrelative:isometricgame\\app.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{060040AC-7448-4424-8EAF-69162E060ED0}|IsometricGame\\IsometricGame.csproj|d:\\dev\\source\\repos\\avalonia.isometricgame\\src\\isometricgame\\viewmodels\\gameboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{060040AC-7448-4424-8EAF-69162E060ED0}|IsometricGame\\IsometricGame.csproj|solutionrelative:isometricgame\\viewmodels\\gameboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{060040AC-7448-4424-8EAF-69162E060ED0}|IsometricGame\\IsometricGame.csproj|d:\\dev\\source\\repos\\avalonia.isometricgame\\src\\isometricgame\\infrastructure\\imagemulticonverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{060040AC-7448-4424-8EAF-69162E060ED0}|IsometricGame\\IsometricGame.csproj|solutionrelative:isometricgame\\infrastructure\\imagemulticonverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{060040AC-7448-4424-8EAF-69162E060ED0}|IsometricGame\\IsometricGame.csproj|d:\\dev\\source\\repos\\avalonia.isometricgame\\src\\isometricgame\\viewmodels\\gameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{060040AC-7448-4424-8EAF-69162E060ED0}|IsometricGame\\IsometricGame.csproj|solutionrelative:isometricgame\\viewmodels\\gameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{060040AC-7448-4424-8EAF-69162E060ED0}|IsometricGame\\IsometricGame.csproj|d:\\dev\\source\\repos\\avalonia.isometricgame\\src\\isometricgame\\viewmodels\\movinggameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{060040AC-7448-4424-8EAF-69162E060ED0}|IsometricGame\\IsometricGame.csproj|solutionrelative:isometricgame\\viewmodels\\movinggameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{060040AC-7448-4424-8EAF-69162E060ED0}|IsometricGame\\IsometricGame.csproj|d:\\dev\\source\\repos\\avalonia.isometricgame\\src\\isometricgame\\viewmodels\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{060040AC-7448-4424-8EAF-69162E060ED0}|IsometricGame\\IsometricGame.csproj|solutionrelative:isometricgame\\viewmodels\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{060040AC-7448-4424-8EAF-69162E060ED0}|IsometricGame\\IsometricGame.csproj|d:\\dev\\source\\repos\\avalonia.isometricgame\\src\\isometricgame\\views\\mainview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
       "RelativeMoniker": "D:0:0:{060040AC-7448-4424-8EAF-69162E060ED0}|IsometricGame\\IsometricGame.csproj|solutionrelative:isometricgame\\views\\mainview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{060040AC-7448-4424-8EAF-69162E060ED0}|IsometricGame\\IsometricGame.csproj|d:\\dev\\source\\repos\\avalonia.isometricgame\\src\\isometricgame\\app.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{060040AC-7448-4424-8EAF-69162E060ED0}|IsometricGame\\IsometricGame.csproj|solutionrelative:isometricgame\\app.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{060040AC-7448-4424-8EAF-69162E060ED0}|IsometricGame\\IsometricGame.csproj|d:\\dev\\source\\repos\\avalonia.isometricgame\\src\\isometricgame\\infrastructure\\directiontomatrixconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{060040AC-7448-4424-8EAF-69162E060ED0}|IsometricGame\\IsometricGame.csproj|solutionrelative:isometricgame\\infrastructure\\directiontomatrixconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{060040AC-7448-4424-8EAF-69162E060ED0}|IsometricGame\\IsometricGame.csproj|d:\\dev\\source\\repos\\avalonia.isometricgame\\src\\isometricgame\\viewmodels\\movinggameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{060040AC-7448-4424-8EAF-69162E060ED0}|IsometricGame\\IsometricGame.csproj|solutionrelative:isometricgame\\viewmodels\\movinggameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{060040AC-7448-4424-8EAF-69162E060ED0}|IsometricGame\\IsometricGame.csproj|d:\\dev\\source\\repos\\avalonia.isometricgame\\src\\isometricgame\\viewmodels\\terraintile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{060040AC-7448-4424-8EAF-69162E060ED0}|IsometricGame\\IsometricGame.csproj|solutionrelative:isometricgame\\viewmodels\\terraintile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{060040AC-7448-4424-8EAF-69162E060ED0}|IsometricGame\\IsometricGame.csproj|d:\\dev\\source\\repos\\avalonia.isometricgame\\src\\isometricgame\\viewmodels\\tank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{060040AC-7448-4424-8EAF-69162E060ED0}|IsometricGame\\IsometricGame.csproj|solutionrelative:isometricgame\\viewmodels\\tank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{060040AC-7448-4424-8EAF-69162E060ED0}|IsometricGame\\IsometricGame.csproj|d:\\dev\\source\\repos\\avalonia.isometricgame\\src\\isometricgame\\infrastructure\\zindexconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{060040AC-7448-4424-8EAF-69162E060ED0}|IsometricGame\\IsometricGame.csproj|solutionrelative:isometricgame\\infrastructure\\zindexconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{060040AC-7448-4424-8EAF-69162E060ED0}|IsometricGame\\IsometricGame.csproj|d:\\dev\\source\\repos\\avalonia.isometricgame\\src\\isometricgame\\infrastructure\\terraintilemulticonverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{060040AC-7448-4424-8EAF-69162E060ED0}|IsometricGame\\IsometricGame.csproj|solutionrelative:isometricgame\\infrastructure\\terraintilemulticonverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{060040AC-7448-4424-8EAF-69162E060ED0}|IsometricGame\\IsometricGame.csproj|d:\\dev\\source\\repos\\avalonia.isometricgame\\src\\isometricgame\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{060040AC-7448-4424-8EAF-69162E060ED0}|IsometricGame\\IsometricGame.csproj|solutionrelative:isometricgame\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{060040AC-7448-4424-8EAF-69162E060ED0}|IsometricGame\\IsometricGame.csproj|d:\\dev\\source\\repos\\avalonia.isometricgame\\src\\isometricgame\\views\\mainview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,14 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B5DEBC4B-4AE0-44D1-9497-21C1930AF6A3}|IsometricGame.Desktop\\IsometricGame.Desktop.csproj|d:\\dev\\source\\repos\\avalonia.isometricgame\\src\\isometricgame.desktop\\isometricgame.desktop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{B5DEBC4B-4AE0-44D1-9497-21C1930AF6A3}|IsometricGame.Desktop\\IsometricGame.Desktop.csproj|solutionrelative:isometricgame.desktop\\isometricgame.desktop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{060040AC-7448-4424-8EAF-69162E060ED0}|IsometricGame\\IsometricGame.csproj|d:\\dev\\source\\repos\\avalonia.isometricgame\\src\\isometricgame\\viewmodels\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{060040AC-7448-4424-8EAF-69162E060ED0}|IsometricGame\\IsometricGame.csproj|solutionrelative:isometricgame\\viewmodels\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{060040AC-7448-4424-8EAF-69162E060ED0}|IsometricGame\\IsometricGame.csproj|d:\\dev\\source\\repos\\avalonia.isometricgame\\src\\isometricgame\\infrastructure\\zindexconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{060040AC-7448-4424-8EAF-69162E060ED0}|IsometricGame\\IsometricGame.csproj|solutionrelative:isometricgame\\infrastructure\\zindexconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{060040AC-7448-4424-8EAF-69162E060ED0}|IsometricGame\\IsometricGame.csproj|d:\\dev\\source\\repos\\avalonia.isometricgame\\src\\isometricgame\\infrastructure\\propertychangedbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,20 +75,8 @@
       "RelativeMoniker": "D:0:0:{060040AC-7448-4424-8EAF-69162E060ED0}|IsometricGame\\IsometricGame.csproj|solutionrelative:isometricgame\\models\\facing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{060040AC-7448-4424-8EAF-69162E060ED0}|IsometricGame\\IsometricGame.csproj|d:\\dev\\source\\repos\\avalonia.isometricgame\\src\\isometricgame\\viewmodels\\terraintile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{060040AC-7448-4424-8EAF-69162E060ED0}|IsometricGame\\IsometricGame.csproj|solutionrelative:isometricgame\\viewmodels\\terraintile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{060040AC-7448-4424-8EAF-69162E060ED0}|IsometricGame\\IsometricGame.csproj|d:\\dev\\source\\repos\\avalonia.isometricgame\\src\\isometricgame\\viewmodels\\gameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{060040AC-7448-4424-8EAF-69162E060ED0}|IsometricGame\\IsometricGame.csproj|solutionrelative:isometricgame\\viewmodels\\gameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{060040AC-7448-4424-8EAF-69162E060ED0}|IsometricGame\\IsometricGame.csproj|d:\\dev\\source\\repos\\avalonia.isometricgame\\src\\isometricgame\\infrastructure\\terraintileconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{060040AC-7448-4424-8EAF-69162E060ED0}|IsometricGame\\IsometricGame.csproj|solutionrelative:isometricgame\\infrastructure\\terraintileconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{060040AC-7448-4424-8EAF-69162E060ED0}|IsometricGame\\IsometricGame.csproj|d:\\dev\\source\\repos\\avalonia.isometricgame\\src\\isometricgame\\infrastructure\\terraintilemulticonverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{060040AC-7448-4424-8EAF-69162E060ED0}|IsometricGame\\IsometricGame.csproj|solutionrelative:isometricgame\\infrastructure\\terraintilemulticonverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{060040AC-7448-4424-8EAF-69162E060ED0}|IsometricGame\\IsometricGame.csproj|d:\\dev\\source\\repos\\avalonia.isometricgame\\src\\isometricgame\\views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
@@ -93,10 +105,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{060040AC-7448-4424-8EAF-69162E060ED0}|IsometricGame\\IsometricGame.csproj|d:\\dev\\source\\repos\\avalonia.isometricgame\\src\\isometricgame\\models\\gamebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{060040AC-7448-4424-8EAF-69162E060ED0}|IsometricGame\\IsometricGame.csproj|solutionrelative:isometricgame\\models\\gamebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{060040AC-7448-4424-8EAF-69162E060ED0}|IsometricGame\\IsometricGame.csproj|d:\\dev\\source\\repos\\avalonia.isometricgame\\src\\isometricgame\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{060040AC-7448-4424-8EAF-69162E060ED0}|IsometricGame\\IsometricGame.csproj|solutionrelative:isometricgame\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{060040AC-7448-4424-8EAF-69162E060ED0}|IsometricGame\\IsometricGame.csproj|d:\\dev\\source\\repos\\avalonia.isometricgame\\src\\isometricgame\\keyboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -142,7 +150,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -198,98 +206,111 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "App.axaml.cs",
-              "DocumentMoniker": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame\\App.axaml.cs",
-              "RelativeDocumentMoniker": "IsometricGame\\App.axaml.cs",
-              "ToolTip": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame\\App.axaml.cs",
-              "RelativeToolTip": "IsometricGame\\App.axaml.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAlwBEAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T18:12:01.932Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "DirectionToMatrixConverter.cs",
               "DocumentMoniker": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame\\Infrastructure\\DirectionToMatrixConverter.cs",
               "RelativeDocumentMoniker": "IsometricGame\\Infrastructure\\DirectionToMatrixConverter.cs",
               "ToolTip": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame\\Infrastructure\\DirectionToMatrixConverter.cs",
               "RelativeToolTip": "IsometricGame\\Infrastructure\\DirectionToMatrixConverter.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAA9wBYAAAAeAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-13T16:08:03.615Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "GameBoard.cs",
               "DocumentMoniker": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame\\ViewModels\\GameBoard.cs",
               "RelativeDocumentMoniker": "IsometricGame\\ViewModels\\GameBoard.cs",
-              "ToolTip": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame\\ViewModels\\GameBoard.cs",
-              "RelativeToolTip": "IsometricGame\\ViewModels\\GameBoard.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAA8wD0AAABbAAAA",
+              "ToolTip": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame\\ViewModels\\GameBoard.cs*",
+              "RelativeToolTip": "IsometricGame\\ViewModels\\GameBoard.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-13T14:13:16.131Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 6,
+              "Title": "App.axaml.cs",
+              "DocumentMoniker": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame\\App.axaml.cs",
+              "RelativeDocumentMoniker": "IsometricGame\\App.axaml.cs",
+              "ToolTip": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame\\App.axaml.cs",
+              "RelativeToolTip": "IsometricGame\\App.axaml.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAawBoAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T18:12:01.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Player.cs",
+              "DocumentMoniker": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame\\ViewModels\\Player.cs",
+              "RelativeDocumentMoniker": "IsometricGame\\ViewModels\\Player.cs",
+              "ToolTip": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame\\ViewModels\\Player.cs",
+              "RelativeToolTip": "IsometricGame\\ViewModels\\Player.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T15:45:20.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Tank.cs",
+              "DocumentMoniker": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame\\ViewModels\\Tank.cs",
+              "RelativeDocumentMoniker": "IsometricGame\\ViewModels\\Tank.cs",
+              "ToolTip": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame\\ViewModels\\Tank.cs",
+              "RelativeToolTip": "IsometricGame\\ViewModels\\Tank.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T13:05:55.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameObject.cs",
+              "DocumentMoniker": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame\\ViewModels\\GameObject.cs",
+              "RelativeDocumentMoniker": "IsometricGame\\ViewModels\\GameObject.cs",
+              "ToolTip": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame\\ViewModels\\GameObject.cs",
+              "RelativeToolTip": "IsometricGame\\ViewModels\\GameObject.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T14:55:36.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "TerrainTile.cs",
               "DocumentMoniker": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame\\ViewModels\\TerrainTile.cs",
               "RelativeDocumentMoniker": "IsometricGame\\ViewModels\\TerrainTile.cs",
               "ToolTip": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame\\ViewModels\\TerrainTile.cs",
               "RelativeToolTip": "IsometricGame\\ViewModels\\TerrainTile.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAowBMAAAAHAAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAAAwwBcAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-13T14:10:18.69Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MovingGameObject.cs",
-              "DocumentMoniker": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame\\ViewModels\\MovingGameObject.cs",
-              "RelativeDocumentMoniker": "IsometricGame\\ViewModels\\MovingGameObject.cs",
-              "ToolTip": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame\\ViewModels\\MovingGameObject.cs",
-              "RelativeToolTip": "IsometricGame\\ViewModels\\MovingGameObject.cs",
-              "ViewState": "AQIAAH8AAAAAAAAAAAAowKgAAAAmAAAA",
+              "DocumentIndex": 1,
+              "Title": "ImageMultiConverter.cs",
+              "DocumentMoniker": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame\\Infrastructure\\ImageMultiConverter.cs",
+              "RelativeDocumentMoniker": "IsometricGame\\Infrastructure\\ImageMultiConverter.cs",
+              "ToolTip": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame\\Infrastructure\\ImageMultiConverter.cs",
+              "RelativeToolTip": "IsometricGame\\Infrastructure\\ImageMultiConverter.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAkwDEAAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T15:49:11.268Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ZIndexConverter.cs",
-              "DocumentMoniker": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame\\Infrastructure\\ZIndexConverter.cs",
-              "RelativeDocumentMoniker": "IsometricGame\\Infrastructure\\ZIndexConverter.cs",
-              "ToolTip": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame\\Infrastructure\\ZIndexConverter.cs",
-              "RelativeToolTip": "IsometricGame\\Infrastructure\\ZIndexConverter.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T15:44:32.535Z",
+              "WhenOpened": "2024-08-14T10:11:01.418Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "MainView.axaml.cs",
-              "DocumentMoniker": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame\\Views\\MainView.axaml.cs",
-              "RelativeDocumentMoniker": "IsometricGame\\Views\\MainView.axaml.cs",
-              "ToolTip": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame\\Views\\MainView.axaml.cs",
-              "RelativeToolTip": "IsometricGame\\Views\\MainView.axaml.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAwwAYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T14:36:15.141Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "MainView.axaml",
               "DocumentMoniker": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame\\Views\\MainView.axaml",
               "RelativeDocumentMoniker": "IsometricGame\\Views\\MainView.axaml",
@@ -301,7 +322,70 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
+              "Title": "MovingGameObject.cs",
+              "DocumentMoniker": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame\\ViewModels\\MovingGameObject.cs",
+              "RelativeDocumentMoniker": "IsometricGame\\ViewModels\\MovingGameObject.cs",
+              "ToolTip": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame\\ViewModels\\MovingGameObject.cs",
+              "RelativeToolTip": "IsometricGame\\ViewModels\\MovingGameObject.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAAwEkAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T15:49:11.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TerrainTileMultiConverter.cs",
+              "DocumentMoniker": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame\\Infrastructure\\TerrainTileMultiConverter.cs",
+              "RelativeDocumentMoniker": "IsometricGame\\Infrastructure\\TerrainTileMultiConverter.cs",
+              "ToolTip": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame\\Infrastructure\\TerrainTileMultiConverter.cs",
+              "RelativeToolTip": "IsometricGame\\Infrastructure\\TerrainTileMultiConverter.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwBwAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T11:01:22.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ZIndexConverter.cs",
+              "DocumentMoniker": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame\\Infrastructure\\ZIndexConverter.cs",
+              "RelativeDocumentMoniker": "IsometricGame\\Infrastructure\\ZIndexConverter.cs",
+              "ToolTip": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame\\Infrastructure\\ZIndexConverter.cs",
+              "RelativeToolTip": "IsometricGame\\Infrastructure\\ZIndexConverter.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T15:44:32.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "App.axaml",
+              "DocumentMoniker": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame\\App.axaml",
+              "RelativeDocumentMoniker": "IsometricGame\\App.axaml",
+              "ToolTip": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame\\App.axaml",
+              "RelativeToolTip": "IsometricGame\\App.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-13T11:50:55.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MainView.axaml.cs",
+              "DocumentMoniker": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame\\Views\\MainView.axaml.cs",
+              "RelativeDocumentMoniker": "IsometricGame\\Views\\MainView.axaml.cs",
+              "ToolTip": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame\\Views\\MainView.axaml.cs",
+              "RelativeToolTip": "IsometricGame\\Views\\MainView.axaml.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAwwAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T14:36:15.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "IsometricGame.Desktop.csproj",
               "DocumentMoniker": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame.Desktop\\IsometricGame.Desktop.csproj",
               "RelativeDocumentMoniker": "IsometricGame.Desktop\\IsometricGame.Desktop.csproj",
@@ -314,20 +398,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Player.cs",
-              "DocumentMoniker": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame\\ViewModels\\Player.cs",
-              "RelativeDocumentMoniker": "IsometricGame\\ViewModels\\Player.cs",
-              "ToolTip": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame\\ViewModels\\Player.cs",
-              "RelativeToolTip": "IsometricGame\\ViewModels\\Player.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T15:45:20.802Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "PropertyChangedBase.cs",
               "DocumentMoniker": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame\\Infrastructure\\PropertyChangedBase.cs",
               "RelativeDocumentMoniker": "IsometricGame\\Infrastructure\\PropertyChangedBase.cs",
@@ -335,12 +406,11 @@
               "RelativeToolTip": "IsometricGame\\Infrastructure\\PropertyChangedBase.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T16:08:09.945Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-13T16:08:09.945Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "TerrainTileConverter.cs",
               "DocumentMoniker": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame\\Infrastructure\\TerrainTileConverter.cs",
               "RelativeDocumentMoniker": "IsometricGame\\Infrastructure\\TerrainTileConverter.cs",
@@ -348,12 +418,11 @@
               "RelativeToolTip": "IsometricGame\\Infrastructure\\TerrainTileConverter.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T14:12:44.344Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-13T14:12:44.344Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "Facing.cs",
               "DocumentMoniker": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame\\Models\\Facing.cs",
               "RelativeDocumentMoniker": "IsometricGame\\Models\\Facing.cs",
@@ -361,12 +430,11 @@
               "RelativeToolTip": "IsometricGame\\Models\\Facing.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T14:09:50.172Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-13T14:09:50.172Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "CellToScreenConverter.cs",
               "DocumentMoniker": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame\\Infrastructure\\CellToScreenConverter.cs",
               "RelativeDocumentMoniker": "IsometricGame\\Infrastructure\\CellToScreenConverter.cs",
@@ -374,50 +442,22 @@
               "RelativeToolTip": "IsometricGame\\Infrastructure\\CellToScreenConverter.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T15:44:28.805Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-13T15:44:28.805Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "TerrainTileMultiConverter.cs",
-              "DocumentMoniker": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame\\Infrastructure\\TerrainTileMultiConverter.cs",
-              "RelativeDocumentMoniker": "IsometricGame\\Infrastructure\\TerrainTileMultiConverter.cs",
-              "ToolTip": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame\\Infrastructure\\TerrainTileMultiConverter.cs",
-              "RelativeToolTip": "IsometricGame\\Infrastructure\\TerrainTileMultiConverter.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAA5wCwAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T11:01:22.534Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "MainWindow.axaml",
               "DocumentMoniker": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame\\Views\\MainWindow.axaml",
               "RelativeDocumentMoniker": "IsometricGame\\Views\\MainWindow.axaml",
               "ToolTip": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame\\Views\\MainWindow.axaml",
               "RelativeToolTip": "IsometricGame\\Views\\MainWindow.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-08-13T11:55:28.291Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-13T11:55:28.291Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "GameObject.cs",
-              "DocumentMoniker": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame\\ViewModels\\GameObject.cs",
-              "RelativeDocumentMoniker": "IsometricGame\\ViewModels\\GameObject.cs",
-              "ToolTip": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame\\ViewModels\\GameObject.cs",
-              "RelativeToolTip": "IsometricGame\\ViewModels\\GameObject.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBMAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T14:55:36.642Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "Game.cs",
               "DocumentMoniker": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame\\Models\\Game.cs",
               "RelativeDocumentMoniker": "IsometricGame\\Models\\Game.cs",
@@ -425,12 +465,11 @@
               "RelativeToolTip": "IsometricGame\\Models\\Game.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T14:09:51.811Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-13T14:09:51.811Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "CellLocation.cs",
               "DocumentMoniker": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame\\Models\\CellLocation.cs",
               "RelativeDocumentMoniker": "IsometricGame\\Models\\CellLocation.cs",
@@ -438,12 +477,11 @@
               "RelativeToolTip": "IsometricGame\\Models\\CellLocation.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T14:10:03.421Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-13T14:10:03.421Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "MainWindow.axaml.cs",
               "DocumentMoniker": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame\\Views\\MainWindow.axaml.cs",
               "RelativeDocumentMoniker": "IsometricGame\\Views\\MainWindow.axaml.cs",
@@ -451,12 +489,11 @@
               "RelativeToolTip": "IsometricGame\\Views\\MainWindow.axaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T14:36:11.306Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-13T14:36:11.306Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "TerrainTileType.cs",
               "DocumentMoniker": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame\\ViewModels\\TerrainTileType.cs",
               "RelativeDocumentMoniker": "IsometricGame\\ViewModels\\TerrainTileType.cs",
@@ -464,12 +501,11 @@
               "RelativeToolTip": "IsometricGame\\ViewModels\\TerrainTileType.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T14:10:19.668Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-13T14:10:19.668Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "TerrainTileOneImageMultiConverter.cs",
               "DocumentMoniker": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame\\Infrastructure\\TerrainTileOneImageMultiConverter.cs",
               "RelativeDocumentMoniker": "IsometricGame\\Infrastructure\\TerrainTileOneImageMultiConverter.cs",
@@ -477,12 +513,11 @@
               "RelativeToolTip": "IsometricGame\\Infrastructure\\TerrainTileOneImageMultiConverter.cs",
               "ViewState": "AQIAABEAAAAAAAAAAAAawBYAAABbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T14:31:10.164Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-13T14:31:10.164Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "GameBase.cs",
               "DocumentMoniker": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame\\Models\\GameBase.cs",
               "RelativeDocumentMoniker": "IsometricGame\\Models\\GameBase.cs",
@@ -490,12 +525,11 @@
               "RelativeToolTip": "IsometricGame\\Models\\GameBase.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAA5wAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T14:09:56.187Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-13T14:09:56.187Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "Keyboard.cs",
               "DocumentMoniker": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame\\Keyboard.cs",
               "RelativeDocumentMoniker": "IsometricGame\\Keyboard.cs",
@@ -503,24 +537,11 @@
               "RelativeToolTip": "IsometricGame\\Keyboard.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T11:51:00.833Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-13T11:51:00.833Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "App.axaml",
-              "DocumentMoniker": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame\\App.axaml",
-              "RelativeDocumentMoniker": "IsometricGame\\App.axaml",
-              "ToolTip": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame\\App.axaml",
-              "RelativeToolTip": "IsometricGame\\App.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-08-13T11:50:55.17Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "MainActivity.cs",
               "DocumentMoniker": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame.Android\\MainActivity.cs",
               "RelativeDocumentMoniker": "IsometricGame.Android\\MainActivity.cs",
@@ -532,7 +553,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "launchSettings.json",
               "DocumentMoniker": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame.Browser\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "IsometricGame.Browser\\Properties\\launchSettings.json",
@@ -544,7 +565,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame.Browser\\Properties\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "IsometricGame.Browser\\Properties\\AssemblyInfo.cs",
@@ -556,7 +577,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "runtimeconfig.template.json",
               "DocumentMoniker": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame.Browser\\runtimeconfig.template.json",
               "RelativeDocumentMoniker": "IsometricGame.Browser\\runtimeconfig.template.json",
@@ -568,7 +589,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "IsometricGame.Browser.csproj",
               "DocumentMoniker": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame.Browser\\IsometricGame.Browser.csproj",
               "RelativeDocumentMoniker": "IsometricGame.Browser\\IsometricGame.Browser.csproj",
@@ -581,7 +602,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "IsometricGame.csproj",
               "DocumentMoniker": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame\\IsometricGame.csproj",
               "RelativeDocumentMoniker": "IsometricGame\\IsometricGame.csproj",
@@ -594,7 +615,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "IsometricGame.Android.csproj",
               "DocumentMoniker": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame.Android\\IsometricGame.Android.csproj",
               "RelativeDocumentMoniker": "IsometricGame.Android\\IsometricGame.Android.csproj",
@@ -607,7 +628,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "app.manifest",
               "DocumentMoniker": "D:\\dev\\Source\\Repos\\Avalonia.IsometricGame\\src\\IsometricGame.Desktop\\app.manifest",
               "RelativeDocumentMoniker": "IsometricGame.Desktop\\app.manifest",
